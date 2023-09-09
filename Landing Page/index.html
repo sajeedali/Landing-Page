@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>Landing page</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar primary-navbar">
+    <div class="logo"><a href="#">Byte Rentals</a></div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h2>Welcome to the official site of</h2>
+      <h1>Byte Rentals</h1>
+      <p>
+        Reent high-performance PCs for your gaming and work needs.<br />
+        Whether you're an avid gamer or a professional seeking top-notch
+        computing power, we've got you covered. <br />
+        Our extensive range of PCs is designed to deliver exceptional
+        performance, reliability, <br />
+        and the ultimate user experience.
+      </p>
+      <h3>
+        If you want to <span id="element"></span> a PC<br />
+        we got you covered.
+      </h3>
+      <div class="social-links">
+        <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+        <a href="#"><i class="uil uil-twitter"></i></a>
+        <a href="#"><i class="uil uil-instagram"></i></a>
+      </div>
+      <div class="explore-button">
+        <a href="#about">Explore more <i class="uil uil-arrow-down"></i></a>
+      </div>
+    </div>
+    <div class="home-image">
+      <img src="assets/images/pc.jpeg" alt="PC Image" />
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-image">
+      <img src="assets/images/about.jpg" alt="About Us Image" />
+    </div>
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>
+        We provide top-quality PC rental services with a focus on performance
+        and customer satisfaction.
+      </p>
+      <p class="read-more" id="read-more">
+        With a passion for technology and a commitment to excellence, we offer
+        a range of high-performance PCs that cater to both gamers and
+        professionals. Our mission is to empower you with the computing power
+        you need for your gaming adventures, creative projects, and work
+        tasks. Whether you're a competitive gamer, a content creator, or a
+        business professional, our tailored solutions ensure that you get the
+        best PC rental experience possible.
+      </p>
+      <p id="more-content" class="hidden">
+        At Byte Rentals, we understand that every user's needs are unique.
+        That's why we offer a diverse selection of PCs, from powerful gaming
+        rigs to cutting-edge workstations. Our PCs are regularly updated to
+        keep up with the latest hardware advancements, ensuring that you have
+        access to the latest technology for your tasks. Customer satisfaction
+        is at the heart of what we do. Our dedicated support team is always
+        ready to assist you with any inquiries or technical assistance you may
+        need. We believe that technology should be accessible and hassle-free,
+        and we strive to make your PC rental experience seamless and
+        enjoyable.
+      </p>
+      <button id="read-more-button">Read More</button>
+    </div>
+  </section>  
+
+    <section class="services" id="services">
+      <div>
+        <h2>Our Services</h2>
+        <p>Below are the services we provide:</p>
+      </div>
+      <div class="service-cards">
+        <div class="service-card" id="rent-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <h3>Rent <i class="uil uil-desktop"></i></h3>
+              <p>Rent high-performance PCs for gaming and work needs.</p>
+            </div>
+            <div class="card-back">
+              <ul class="service-features">
+                <li>Wide range of gaming and work PCs</li>
+                <li>Flexible rental options</li>
+                <li>High-performance hardware</li>
+                <li>Expert technical support</li>
+                <li>Upgrade options available</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="service-card" id="repair-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <h3>Repair <i class="uil uil-wrench"></i></h3>
+              <p>Get professional repair services to keep your PCs running smoothly.</p>
+            </div>
+            <div class="card-back">
+              <ul class="service-features">
+                <li>Diagnosis and troubleshooting</li>
+                <li>Skilled technicians</li>
+                <li>Fast turnaround time</li>
+                <li>Quality replacement parts</li>
+                <li>Comprehensive testing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="service-card" id="buy-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <h3>Buy/Sell <i class="uil uil-money-bill"></i></h3>
+              <p>Explore options to buy or sell PCs that meet your preferences.</p>
+            </div>
+            <div class="card-back">
+              <ul class="service-features">
+                <li>Wide selection of PCs</li>
+                <li>Transparent pricing</li>
+                <li>Trade-in options</li>
+                <li>Secure transactions</li>
+                <li>Expert guidance</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>Feel free to reach out to us with any inquiries or questions.</p>
+      <div class="contact-info">
+        <div class="contact-method">
+          <i class="uil uil-envelope"></i>
+          <p>Email: info@byterentals.com</p>
+        </div>
+        <div class="contact-method">
+          <i class="uil uil-phone"></i>
+          <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <div class="contact-method">
+          <i class="uil uil-map-marker"></i>
+          <p>Address: 1234 Tech Street, Cityville, Country</p>
+        </div>
+        <div class="contact-method">
+          <i class="uil uil-clock"></i>
+          <p>Business Hours: Mon-Fri, 9:00 AM - 6:00 PM</p>
+        </div>
+      </div>
+      <div class="contact-socials">
+        <div class="contact-social">
+          <p>Connect with us on social media</p>
+          <div class="contact-links">
+            <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+            <a href="#"><i class="uil uil-twitter"></i></a>
+            <a href="#"><i class="uil uil-instagram"></i></a>
+          </div>
+        </div>
+      </div>    
+    </section>
+    
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo">
+      <h1>Byte Rentals</h1>
+    </div>
+    <div class="footer-navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-info">
+      <p>Address: 1234 Tech Street, Cityville, Country</p>
+      <p>Email: info@pcrentalhub.com</p>
+      <p>Phone: +1 (123) 456-7890</p>
+    </div>
+  </div>
+  <div class="footer-credits">
+    <p>&copy; 2023 Byte Rentals. All rights reserved.<br>
+    Website designed by Sajeed Ali Shaikh</p>
+  </div>
+</footer>
+
+<script>
+const readMoreButton = document.getElementById("read-more-button");
+const moreContent = document.getElementById("more-content");
+
+readMoreButton.addEventListener("click", function () {
+  moreContent.classList.toggle("hidden");
+
+  if (moreContent.classList.contains("hidden")) {
+    readMoreButton.textContent = "Read More";
+  } else {
+    readMoreButton.textContent = "Read Less";
+  }
+});  
+</script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Buy/Sell", "Repair", "Rent"],
+        typeSpeed: 100,
+      });
+    </script>
+
+</body>
+</html>
